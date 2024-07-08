@@ -1,9 +1,9 @@
-interface Birthdays {
+interface Birthday {
   name: string;
   birthday: string;
 }
 
-export const birthdays: Birthdays[] = [
+export const birthdays: Birthday[] = [
   {
     name: "Jana",
     birthday: "17. 3. 1996",
