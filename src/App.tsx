@@ -1,7 +1,13 @@
 import "./App.css";
+import { Birthday } from "./components/Birthday/Birthday";
 
 function App() {
-  return <h1>Vitest| Testing framework</h1>;
+  return (
+    <>
+      {/* <Birthday name="Jana" /> */}
+      <Birthday name="Vendula" />
+    </>
+  );
 }
 
 export default App;
